@@ -14,7 +14,7 @@
       "args": ["tests"]
     },
     {
-      "name": "test: sum",
+      "name": "test: plot",
       "type": "python",
       "request": "launch",
       "program": "./src/main.py",
@@ -24,7 +24,7 @@
         "PYTHONPATH": "${workspaceFolder}/venv/bin/activate"
       },
       // use "--" before negatives
-      "args": ["sum", "--", "2", "3", "-1"]
+      "args": ["-v", "-d", "plot", "-w"]
     }
   ]
 }
